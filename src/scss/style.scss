@@ -1,0 +1,24 @@
+// imports
+@import url("https://fonts.googleapis.com/css?family=Rubik|Roboto");
+
+// variables
+$primary-color: #cf4232;
+$secondary-color: #eb7f23;
+$third-color: #fac023;
+$font1-color: #068675;
+$font2-color: #6b202e;
+$headline-font: Rubik;
+$text-font: Roboto;
+
+// Showcase Carousel
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headline-font;
+}
+p {
+  font-family: $text-font;
+}
