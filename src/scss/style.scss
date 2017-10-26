@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik|Roboto");
 
 // variables
-$primary-color: #cf4232;
-$secondary-color: #eb7f23;
-$third-color: #fac023;
-$font1-color: #068675;
-$font2-color: #6b202e;
+$primary-color: #2305fd;
+$secondary-color: #19b00c;
+$third-color: #26ca18;
+$font1-color: #fd791e;
+$font2-color: #2815b0;
 $headline-font: Rubik;
 $text-font: Roboto;
 
@@ -21,4 +21,16 @@ h6 {
 }
 p {
   font-family: $text-font;
+}
+
+#home {
+  background: url("../img/costume1.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  min-height: 700px;
+
+  h1 {
+    padding-top: 350px;
+  }
 }
