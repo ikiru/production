@@ -18,19 +18,42 @@ h4,
 h5,
 h6 {
   font-family: $headline-font;
+  color: red;
 }
 p {
   font-family: $text-font;
 }
 
+.hide {
+  visibility: hidden;
+}
+
 #home {
-  background: url("../img/costume1.jpg") no-repeat;
+  background: url("../img/costume1.jpeg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px;
   min-height: 700px;
 
   h1 {
-    padding-top: 350px;
+    padding-top: 10px;
+  }
+
+  #product {
+    background-color: $primary-color;
+  }
+
+  #company {
+    background-color: $secondary-color;
+  }
+
+  #history {
+    background-color: $third-color;
+  }
+
+  #contact {
+    h1 {
+      color: blue;
+    }
   }
 }

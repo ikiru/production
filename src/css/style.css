@@ -5,16 +5,28 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Rubik; }
+  font-family: Rubik;
+  color: red; }
 
 p {
   font-family: Roboto; }
 
+.hide {
+  visibility: hidden; }
+
 #home {
-  background: url("../img/costume1.jpg") no-repeat;
+  background: url("../img/costume1.jpeg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px;
   min-height: 700px; }
   #home h1 {
-    padding-top: 350px; }
+    padding-top: 10px; }
+  #home #product {
+    background-color: #2305fd; }
+  #home #company {
+    background-color: #19b00c; }
+  #home #history {
+    background-color: #26ca18; }
+  #home #contact h1 {
+    color: blue; }
