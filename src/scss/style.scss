@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik|Roboto");
 
 // variables
-$primary-color: #2305fd;
-$secondary-color: #19b00c;
-$third-color: #26ca18;
-$font1-color: #fd791e;
-$font2-color: #2815b0;
+$primary-color: #8715ff;
+$secondary-color: #5758ff;
+$third-color: #328cff;
+$font1-color: #20a5ff;
+$font2-color: #10bcff;
 $headline-font: Rubik;
 $text-font: Roboto;
 
@@ -17,10 +17,11 @@ h3,
 h4,
 h5,
 h6 {
+  margin: 0px;
   font-family: $headline-font;
-  color: red;
 }
 p {
+  margin: 0px;
   font-family: $text-font;
 }
 
@@ -37,23 +38,21 @@ p {
 
   h1 {
     padding-top: 10px;
+    color: white;
   }
+}
+#product {
+  background-color: $primary-color;
+}
 
-  #product {
-    background-color: $primary-color;
-  }
+#company {
+  background-color: $secondary-color;
+}
 
-  #company {
-    background-color: $secondary-color;
-  }
+#history {
+  background-color: $third-color;
+}
 
-  #history {
-    background-color: $third-color;
-  }
-
-  #contact {
-    h1 {
-      color: blue;
-    }
-  }
+#contact {
+  background-color: $font2-color;
 }

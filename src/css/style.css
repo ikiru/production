@@ -5,10 +5,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Rubik;
-  color: red; }
+  margin: 0px;
+  font-family: Rubik; }
 
 p {
+  margin: 0px;
   font-family: Roboto; }
 
 .hide {
@@ -21,12 +22,17 @@ p {
   min-height: 700px;
   min-height: 700px; }
   #home h1 {
-    padding-top: 10px; }
-  #home #product {
-    background-color: #2305fd; }
-  #home #company {
-    background-color: #19b00c; }
-  #home #history {
-    background-color: #26ca18; }
-  #home #contact h1 {
-    color: blue; }
+    padding-top: 10px;
+    color: white; }
+
+#product {
+  background-color: #8715ff; }
+
+#company {
+  background-color: #5758ff; }
+
+#history {
+  background-color: #328cff; }
+
+#contact {
+  background-color: #10bcff; }
